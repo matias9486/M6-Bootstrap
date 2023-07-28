@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+:root{
+    /*ffont weight*/
+    --fw-regular:400;
+    --fw-semibold:600;
+    --fw-bold:700;
+        
+    /*font size*/
+    --fs-13:13pt;
+    --fs-18:18pt;
+    
+    --style-italic:italic;
+
+    /*colors*/
+    --clr-text:#04146c;
+    --clr-background:#5974ff;
+    --clr-border:#8a9af1;
+
+    --font-mulish:'Mulish', sans-serif;
+}
+
+.mulish{
+    font-family: var(--font-mulish);
+}
+
+/*font weight*/
+.my-fw-regular{
+    font-weight: var(--fw-regular);
+}
+
+.my-fw-semibold{
+    font-weight: var(--fw-semibold);
+}
+
+.my-fw-bold{
+    font-weight: var(--fw-bold);
+}
+
+.italic{
+    font-style: var(--style-italic);
+}
+
+/*text color*/
+.my-text-color{
+    color: var(--clr-text);
+}
+
+/*border color*/
+.my-border-color{
+    border-color: var(--clr-border);
+}
+
+/*font size*/
+.my-fs-18{
+    font-size: var(--fs-18);
+}
+
+.my-fs-13{
+    font-size: var(--fs-13);
+}
+
+/*button*/
+.my-button, .my-button:hover{
+    width: 150px;
+    height: 50px;
+    background-color:var(--clr-background);
+}
+
+input{
+    border-color: var(--clr-border);
+}

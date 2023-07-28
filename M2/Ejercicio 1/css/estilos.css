@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+:root{
+    /*ffont weight*/
+    --fw-regular:400;
+    --fw-bold:700;
+
+    /*font size*/
+    --fs-18:18pt;
+    --fs-30:30pt;
+    --fs-49:49pt;
+    
+    /*colors*/
+    --clr-primary:#04146c;
+    --clr-secondary:#0a2ff1;
+
+    --font-mulish:'Mulish', sans-serif;
+}
+
+.mulish{
+    font-family: var(--font-mulish);
+}
+
+/*font weight*/
+.my-fw-regular{
+    font-weight: var(--fw-regular);
+}
+
+.my-fw-bold{
+    font-weight: var(--fw-bold);
+}
+
+/*text color*/
+.my-text-color-primary{
+    color: var(--clr-primary);
+}
+
+.my-text-color-secondary{
+    color: var(--clr-secondary);
+}
+
+/*border color*/
+.border-color-secondary, .border-color-secondary:hover{
+    border:2px solid #0a2ff1;
+    border-radius: 0;
+}
+
+/*font size*/
+.my-fs-18{
+    font-size: var(--fs-18);
+}
+
+.my-fs-30{
+    font-size: var(--fs-30);
+}
+
+.my-fs-49{
+    font-size: var(--fs-49);
+}

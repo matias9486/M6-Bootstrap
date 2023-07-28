@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,900;1,400&display=swap');
+
+:root{
+    /*font weight*/
+    --fw-regular:400;    
+    --fw-black:900;
+        
+    /*font size*/
+    --fs-14:14pt;
+    --fs-16:16pt;
+    --fs-62:62pt;
+    
+    --style-italic:italic;
+    --font-variant-versalitas:small-caps;
+
+    /*colors*/
+    --clr-primary:#04146c;
+        
+    --font-source-sans: 'Source Sans 3', sans-serif;
+}
+
+.font-source-sans{
+    font-family: var(--font-source-sans);
+}
+
+/*font weight*/
+.my-fw-regular{
+    font-weight: var(--fw-regular);
+}
+
+.my-fw-black{
+    font-weight: var(--fw-black);
+}
+
+.italic{
+    font-style: var(--style-italic);
+}
+
+.font-variant-versalitas{
+    font-variant:var(--font-variant-versalitas);
+}
+
+/*text color*/
+.my-text-color{
+    color: var(--clr-primary);
+}
+
+/*font size*/
+.my-fs-14{
+    font-size: var(--fs-14);
+}
+
+.my-fs-16{
+    font-size: var(--fs-16);
+}
+
+.my-fs-62{
+    font-size: var(--fs-62);
+}
+
+/*button*/
+.my-button, .my-button:hover{
+    width: 160px;    
+    background-color:var(--clr-primary);
+}
+
+.my-image{
+    width: 80%;
+}
+
+@media (width <768px) {
+    .my-image{
+        width: 100%;
+    }
+}  
